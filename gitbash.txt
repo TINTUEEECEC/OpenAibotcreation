@@ -1,0 +1,249 @@
+
+TINTU THOMAS@TINTU-THOMAS-VANIYAKERIYIL MINGW64 /e/OpenAibotcreation
+$ git clone https://github.com/TINTUEEECEC/TelebotGPTtest.git
+Cloning into 'TelebotGPTtest'...
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (5/5), done.
+
+TINTU THOMAS@TINTU-THOMAS-VANIYAKERIYIL MINGW64 /e/OpenAibotcreation
+$ code .
+
+TINTU THOMAS@TINTU-THOMAS-VANIYAKERIYIL MINGW64 /e/OpenAibotcreation
+$ conda create -n telebot python=3.7 -y
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: C:\Anaconda\envs\telebot
+
+  added / updated specs:
+    - python=3.7
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ca-certificates-2023.7.22  |       h56e8100_0         146 KB  conda-forge
+    libsqlite-3.43.2           |       hcfcfb64_0         827 KB  conda-forge
+    openssl-3.1.3              |       hcfcfb64_0         7.1 MB  conda-forge
+    pip-23.2.1                 |     pyhd8ed1ab_0         1.3 MB  conda-forge
+    python-3.7.12              |h900ac77_100_cpython        18.0 MB  conda-forge
+    setuptools-68.2.2          |     pyhd8ed1ab_0         454 KB  conda-forge
+    sqlite-3.43.2              |       hcfcfb64_0         830 KB  conda-forge
+    ucrt-10.0.22621.0          |       h57928b3_0         1.2 MB  conda-forge
+    vc-14.3                    |      h64f974e_17          17 KB  conda-forge
+    vc14_runtime-14.36.32532   |      hdcecf7f_17         722 KB  conda-forge
+    vs2015_runtime-14.36.32532 |      h05e6639_17          17 KB  conda-forge
+    wheel-0.41.2               |     pyhd8ed1ab_0          56 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        30.6 MB
+
+The following NEW packages will be INSTALLED:
+
+  ca-certificates    conda-forge/win-64::ca-certificates-2023.7.22-h56e8100_0
+  libsqlite          conda-forge/win-64::libsqlite-3.43.2-hcfcfb64_0
+  openssl            conda-forge/win-64::openssl-3.1.3-hcfcfb64_0
+  pip                conda-forge/noarch::pip-23.2.1-pyhd8ed1ab_0
+  python             conda-forge/win-64::python-3.7.12-h900ac77_100_cpython
+  setuptools         conda-forge/noarch::setuptools-68.2.2-pyhd8ed1ab_0
+  sqlite             conda-forge/win-64::sqlite-3.43.2-hcfcfb64_0
+  ucrt               conda-forge/win-64::ucrt-10.0.22621.0-h57928b3_0
+  vc                 conda-forge/win-64::vc-14.3-h64f974e_17
+  vc14_runtime       conda-forge/win-64::vc14_runtime-14.36.32532-hdcecf7f_17
+  vs2015_runtime     conda-forge/win-64::vs2015_runtime-14.36.32532-h05e6639_17
+  wheel              conda-forge/noarch::wheel-0.41.2-pyhd8ed1ab_0
+
+
+
+Downloading and Extracting Packages
+wheel-0.41.2         | 56 KB     | ########## | 100%
+sqlite-3.43.2        | 830 KB    | ########## | 100%
+ucrt-10.0.22621.0    | 1.2 MB    | ########## | 100%
+python-3.7.12        | 18.0 MB   | ########## | 100%
+vs2015_runtime-14.36 | 17 KB     | ########## | 100%
+libsqlite-3.43.2     | 827 KB    | ########## | 100%
+vc14_runtime-14.36.3 | 722 KB    | ########## | 100%
+setuptools-68.2.2    | 454 KB    | ########## | 100%
+pip-23.2.1           | 1.3 MB    | ########## | 100%
+vc-14.3              | 17 KB     | ########## | 100%
+openssl-3.1.3        | 7.1 MB    | ########## | 100%
+ca-certificates-2023 | 146 KB    | ########## | 100%
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+#
+# To activate this environment, use
+#
+#     $ conda activate telebot
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+Retrieving notices: ...working... done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.14.0
+  latest version: 23.9.0
+
+Please update conda by running
+
+    $ conda update -n base -c conda-forge conda
+
+
+
+TINTU THOMAS@TINTU-THOMAS-VANIYAKERIYIL MINGW64 /e/OpenAibotcreation
+$ ^C
+
+TINTU THOMAS@TINTU-THOMAS-VANIYAKERIYIL MINGW64 /e/OpenAibotcreation
+$ conda activate telebot
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+If using 'conda activate' from a batch script, change your
+invocation to 'CALL conda.bat activate'.
+
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - cmd.exe
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+TINTU THOMAS@TINTU-THOMAS-VANIYAKERIYIL MINGW64 /e/OpenAibotcreation
+$ ^C
+
+TINTU THOMAS@TINTU-THOMAS-VANIYAKERIYIL MINGW64 /e/OpenAibotcreation
+$ conda create -n telebot python=3.7 -y
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: C:\Anaconda\envs\telebot
+
+  added / updated specs:
+    - python=3.7
+
+
+The following NEW packages will be INSTALLED:
+
+  ca-certificates    conda-forge/win-64::ca-certificates-2023.7.22-h56e8100_0
+  libsqlite          conda-forge/win-64::libsqlite-3.43.2-hcfcfb64_0
+  openssl            conda-forge/win-64::openssl-3.1.3-hcfcfb64_0
+  pip                conda-forge/noarch::pip-23.2.1-pyhd8ed1ab_0
+  python             conda-forge/win-64::python-3.7.12-h900ac77_100_cpython
+  setuptools         conda-forge/noarch::setuptools-68.2.2-pyhd8ed1ab_0
+  sqlite             conda-forge/win-64::sqlite-3.43.2-hcfcfb64_0
+  ucrt               conda-forge/win-64::ucrt-10.0.22621.0-h57928b3_0
+  vc                 conda-forge/win-64::vc-14.3-h64f974e_17
+  vc14_runtime       conda-forge/win-64::vc14_runtime-14.36.32532-hdcecf7f_17
+  vs2015_runtime     conda-forge/win-64::vs2015_runtime-14.36.32532-h05e6639_17
+  wheel              conda-forge/noarch::wheel-0.41.2-pyhd8ed1ab_0
+
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+#
+# To activate this environment, use
+#
+#     $ conda activate telebot
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+Retrieving notices: ...working... done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.14.0
+  latest version: 23.9.0
+
+Please update conda by running
+
+    $ conda update -n base -c conda-forge conda
+
+
+
+TINTU THOMAS@TINTU-THOMAS-VANIYAKERIYIL MINGW64 /e/OpenAibotcreation
+$ conda activate telebot
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+If using 'conda activate' from a batch script, change your
+invocation to 'CALL conda.bat activate'.
+
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - cmd.exe
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+TINTU THOMAS@TINTU-THOMAS-VANIYAKERIYIL MINGW64 /e/OpenAibotcreation
+$ conda init powershell
+no change     C:\Anaconda\Scripts\conda.exe
+no change     C:\Anaconda\Scripts\conda-env.exe
+no change     C:\Anaconda\Scripts\conda-script.py
+no change     C:\Anaconda\Scripts\conda-env-script.py
+no change     C:\Anaconda\condabin\conda.bat
+no change     C:\Anaconda\Library\bin\conda.bat
+no change     C:\Anaconda\condabin\_conda_activate.bat
+no change     C:\Anaconda\condabin\rename_tmp.bat
+no change     C:\Anaconda\condabin\conda_auto_activate.bat
+no change     C:\Anaconda\condabin\conda_hook.bat
+no change     C:\Anaconda\Scripts\activate.bat
+no change     C:\Anaconda\condabin\activate.bat
+no change     C:\Anaconda\condabin\deactivate.bat
+modified      C:\Anaconda\Scripts\activate
+modified      C:\Anaconda\Scripts\deactivate
+modified      C:\Anaconda\etc\profile.d\conda.sh
+modified      C:\Anaconda\etc\fish\conf.d\conda.fish
+no change     C:\Anaconda\shell\condabin\Conda.psm1
+modified      C:\Anaconda\shell\condabin\conda-hook.ps1
+no change     C:\Anaconda\Lib\site-packages\xontrib\conda.xsh
+modified      C:\Anaconda\etc\profile.d\conda.csh
+modified      C:\Users\TINTU THOMAS\Documents\WindowsPowerShell\profile.ps1
+
+==> For changes to take effect, close and re-open your current shell. <==
+
+
+(base)
+TINTU THOMAS@TINTU-THOMAS-VANIYAKERIYIL MINGW64 /e/OpenAibotcreation
+$ conda activate telebot
+(telebot)
+TINTU THOMAS@TINTU-THOMAS-VANIYAKERIYIL MINGW64 /e/OpenAibotcreation
+$ ^C
+(telebot)
+TINTU THOMAS@TINTU-THOMAS-VANIYAKERIYIL MINGW64 /e/OpenAibotcreation
+$

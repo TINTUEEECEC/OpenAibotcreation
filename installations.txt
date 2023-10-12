@@ -1,0 +1,4 @@
+python-dotenv  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
+aiogram
+openai
+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
