@@ -21,7 +21,14 @@ async def command_start_handler(message: types.Message):
     """
     This handler receives messages with `/start` or  `/help `command
     """
-    await message.reply("Hi\nI am Tele Bot!\Created by Bappy. How can i assist you?")
+    await message.reply("Hi\nI am Tele Bot!\Created by Tintu. How can i assist you?")
+    
+@dp.message_handler()
+async def echo(message: types.Message):
+    """
+    This will return echo
+    """
+    await message.answer(message.text)
     
 if __name__ == "__main__":
     executor.start_polling(dp, skip_updates=True)
