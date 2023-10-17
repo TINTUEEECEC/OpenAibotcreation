@@ -1,3 +1,5 @@
 python-dotenv
 aiogram
 openai
+OpenAI_API_KEY = "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"
+TOKEN = "6562490933:AAGluTiIxME_gYADD8yPgqTt78g0VNd71m0"
