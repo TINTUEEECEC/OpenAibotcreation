@@ -247,3 +247,10 @@ $ ^C
 (telebot)
 TINTU THOMAS@TINTU-THOMAS-VANIYAKERIYIL MINGW64 /e/OpenAibotcreation
 $
+
+(base)
+TINTU THOMAS@TINTU-THOMAS-VANIYAKERIYIL MINGW64 /e/OpenAibotcreation (master)
+$ conda activate telebot
+(telebot)
+TINTU THOMAS@TINTU-THOMAS-VANIYAKERIYIL MINGW64 /e/OpenAibotcreation (master)
+$ python telebot.py
